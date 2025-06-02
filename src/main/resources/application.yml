@@ -1,0 +1,10 @@
+# Porta opcional
+server:
+  port: 8080
+
+spring:
+  application:
+    name: cicd
+#   Configurações do Thymeleaf (opcional)
+  thymeleaf:
+    cache: false

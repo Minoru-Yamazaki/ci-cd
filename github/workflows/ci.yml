@@ -2,7 +2,7 @@ name: Java Spring CI/CD
 
 on:
   push:
-    branches: [feature]
+    branches: [feature, release, master]
   pull_request:
     branches: [master]
 
