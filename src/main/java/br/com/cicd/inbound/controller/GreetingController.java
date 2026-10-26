@@ -10,8 +10,10 @@ public class GreetingController {
 
     @GetMapping("/greeting")
     public String greeting(Model model) {
-        User user = new User("João", 30);
+
+        User user = new User("Teste", 30);
         model.addAttribute("user", user);
+
         return "greeting"; // Nome do template (greeting.html)
     }
 
